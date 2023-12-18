@@ -18,7 +18,7 @@ This is a Ruby on Rails API project that provides currency conversion based on e
     ```
 ## Running the Server
 
-    ```bash
+    ```
     rails s
     ```
 ## API should be accessible at
