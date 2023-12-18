@@ -16,12 +16,13 @@ This is a Ruby on Rails API project that provides currency conversion based on e
     ```bash
     bundle install
     ```
-## Running the Server
+3. **Running the Server:**
 
-    ```
+    ```bash
     rails s
     ```
-## API should be accessible at
+4. **API should be accessible at:**
+
 
 http://localhost:3000/convert?source=USD&target=JPY&amount=$1,525
 
