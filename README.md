@@ -1,24 +1,33 @@
-# README
+# Currency Converter API
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a Ruby on Rails API project that provides currency conversion based on exchange rates.
 
-Things you may want to cover:
+## Setup
 
-* Ruby version
+1. **Clone the repository:**
 
-* System dependencies
+    ```bash
+    git clone https://github.com/codzilla91/api_demo.git 
+    cd api_demo
+    ```
 
-* Configuration
+2. **Install dependencies:**
 
-* Database creation
+    ```bash
+    bundle install
+    ```
+## Running the Server
 
-* Database initialization
+    ```bash
+    rails s
+    ```
+## API should be accessible at
 
-* How to run the test suite
+http://localhost:3000/convert?source=USD&target=JPY&amount=$1,525
 
-* Services (job queues, cache servers, search engines, etc.)
+The source and target can be switched to USD, JPY, or TWD at will and enter the amout you need.
 
-* Deployment instructions
 
-* ...
+
+
+
